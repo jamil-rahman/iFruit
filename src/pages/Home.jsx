@@ -7,7 +7,7 @@ import Contact from '../components/Contact';
 
 export default function Home() {
   return (
-    <div className='bg-columbia snap-mandatory snap-y scroll-smooth overflow-y-auto scrollbar-hidden text-white'>
+    <div className='bg-columbia snap-container scrollbar-hidden text-white'>
         <Banner />
         <About />
         <Products />

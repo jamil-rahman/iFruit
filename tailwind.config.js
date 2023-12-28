@@ -5,11 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      columbia: 'rgb(197, 213, 234)',
+
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        columbia: '#C5D5EA',
+        rich_black: '#151E28',
+        gunmetal: '#1c2c36',
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
