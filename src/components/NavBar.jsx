@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-    <nav className='w-full flex justify-around p-2 bg-gunmetal'>
-      <img src="/images/logo.png" alt="Logo for iFruit" className='max-w-10 h-auto'/>
-        <ul className='items-center list-none flex '>
+    <nav className='w-full flex flex-col md:flex-row md:justify-around p-2 bg-gunmetal text-white'>
+      <img src="/images/logo.png" alt="Logo for iFruit" className=' items-center max-w-14 md:max-w-10 h-auto'/>
+        <ul className='items-center list-none flex flex-col md:flex-row '>
             <li className='mr-6'>Home</li>
             <li className='mr-6' >Our Products</li>
             <li className='mr-6'>About Us</li>
